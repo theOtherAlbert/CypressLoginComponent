@@ -1,3 +1,8 @@
+# WARNING!!!!!!!!!!
+Do not download this code. You will generate it yourself.
+
+Where I do instruct you to copy my code, you can do so.
+
 # Setting up Cypress component testing
 You can use Intelij or VSCode to do the below.
 
@@ -40,7 +45,7 @@ Now lets install cypress for your project. Dont stress, it might take 3-5 minute
 npm install cypress --save-dev
 ```
 
-## Setting up your config and settings
+## Setting up your additional config 
 
 Almost there...
 
@@ -51,7 +56,6 @@ npm install styled-components
 ```
 
 You are most likely gonna run into some issues with TypeScript, so do the below:
-
 - In the Intelij/VSCode file explorer, go to the file `cypress.config.ts` and change its name to `cypress.config.cjs`.
 - Now **replace** its content with the below:
 
@@ -68,4 +72,20 @@ module.exports = defineConfig({
 });
 ``` 
 
+## Add the component code
+
+Since you are a tester and a developer today, you need to add the code for the component:
+- In the Intelij/VSCode file explorer, create a `components` folder under SRC.
+- Create a file named `LoginForm.tsx` under this folder.
+- You should see this structure now: `src>components>LoginForm.tsx`
+
+  Now add the below code in the file you created:
+
+  
+## Add the component code
+
+Since you are a tester and a developer today, you need to add the code for the component:
+- In the Intelij/VSCode file explorer, create a `components` folder under SRC.
+- Create a file named `LoginForm.tsx` under this folder.
+- You should see this structure now: `src>components>LoginForm.tsx`
 

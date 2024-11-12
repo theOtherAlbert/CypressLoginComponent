@@ -79,13 +79,41 @@ Since you are a tester and a developer today, you need to add the code for the c
 - Create a file named `LoginForm.tsx` under this folder.
 - You should see this structure now: `src>components>LoginForm.tsx`
 
-  Now add the below code in the file you created:
+Now you can add the code to the above file.
+- Navigate to my `src>components>LoginForm.tsx` file then copy and paste the code into your file.
+
+   
+## Add the component test code
+
+In your terminal, run the below code to start up Cypress
+
+```js
+npx cypress open
+```
+
+You have to select `E2E` or `Component Testing`. If you think that your next step is to click on `Component Testing`, then you are correct - do it.
+
+You should land on a `Choose a Browser` screen, **but if you didnt:**
+- just click continue till you get there
+- if you need to select a framework/bundle, just select `React` and `Vite` and Continue/Next
+- if you land on a page taling about decendencies, click Continue/Next
+
+On the `Choose a Browser` screen, select a browser such as `Chrome` and continue.
+
+Select "New Spec" on the next screen.
+- it will want to create a new spec/test in `cypress\component\`
+- give the file the name `LoginForm.cy.tsx`
 
   
-## Add the component code
+Click `Create Spec` and the blank test should run.
+You should see this structure now in VCode/Intelij: `cypress\component\LoginForm.cy.tsx`
 
-Since you are a tester and a developer today, you need to add the code for the component:
-- In the Intelij/VSCode file explorer, create a `components` folder under SRC.
-- Create a file named `LoginForm.tsx` under this folder.
-- You should see this structure now: `src>components>LoginForm.tsx`
+Now you can add the test code to the above file.
+- Navigate to my `cypress\component\LoginForm.cy.tsx` file then copy and paste the code into your file (replace the existing code that was auto generated).
+
+Ou can now save your project.
+
+The test should run and wha-la-la
+
+
 

@@ -1,7 +1,7 @@
 # VERY IMPORTANT!!!
 Do not download this code. You will generate it yourself.
 
-Where I do instruct you to copy my code, you can do so.
+Where I do instruct you to copy my code, you can do so. Also, feel fre to compare your code to mine if you are unsure.
 
 # Setting up Cypress component testing
 You can use Intelij or VSCode to do the below.

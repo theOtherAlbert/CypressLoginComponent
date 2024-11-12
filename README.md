@@ -1,4 +1,4 @@
-# WARNING!!!!!!!!!!
+# VERY IMPORTANT!!!
 Do not download this code. You will generate it yourself.
 
 Where I do instruct you to copy my code, you can do so.

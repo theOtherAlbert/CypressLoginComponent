@@ -1,23 +1,18 @@
 # Setting up Cypress component testing
+You can use Intelij or VSCode to do the below.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+If you have any issues, please contact me for assistance
 
-## Expanding the ESLint configuration
+## Creating a dummy app and installing Cypress
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To test a component, we first need to have a component. In the real world, a developer will be giving you this component, but for this excercise you need to create it yourself. No need to stress, great things are happening.
+
+I canned my component "CypressLoginComponent", but you can use any name.
 
 - Configure the top-level `parserOptions` property like this:
 
 ```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+npm create vite@latest CypressLoginComponent -- --template react
 ```
 
 - Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
